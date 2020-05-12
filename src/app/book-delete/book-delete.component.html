@@ -1,0 +1,9 @@
+<p>Chi tiết sách</p>
+<button routerLink="/">Xem danh sách</button>
+<div>
+  <p>{{book.title}}</p>
+  <p>{{book.author}}</p>
+  <p>{{book.description}}</p>
+  <button (click)="delete()" onclick="return confirm('ban co chac muon xoa')">Xóa</button>
+  <button routerLink="/">Thoát</button>
+</div>
